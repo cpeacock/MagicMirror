@@ -141,6 +141,7 @@ Module.register("newsfeed", {
 			publishDate: moment(new Date(item.pubdate)).fromNow(),
 			title: item.title,
 			description: item.description,
+			url: item.url,
 			items: items
 		};
 	},

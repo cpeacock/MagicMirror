@@ -41,7 +41,7 @@
                 </div>
             {% endif %}
             <div class="newsfeed-title bright medium light{{ ' no-wrap' if not config.wrapTitle }}">
-                {{ title }}
+                <a href="{{ url }}" target="_blank" class="">{{ title }}</a>
             </div>
             {% if config.showDescription %}
                 <div class="newsfeed-desc small light{{ ' no-wrap' if not config.wrapDescription }}">

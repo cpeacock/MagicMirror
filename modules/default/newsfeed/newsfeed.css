@@ -21,3 +21,8 @@ iframe.newsfeed-fullarticle {
   text-align: justify;
   margin-bottom: 0.5em;
 }
+
+.newsfeed a {
+  color: var(--color-text-bright);
+  text-decoration: none;
+}
